@@ -36,12 +36,12 @@ color: aliceblue;
 }
 
 #quiz {
-  counter-reset: quiz-item;
+  counter-reset: quiz-Item;
 }
 
 .quiz-Item{
  margin-top: 24px;
- border: 1px solid white;
+ border: 1px solid black;
  border-radius: 6px;
  overflow: hidden;
  
