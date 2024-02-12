@@ -60,8 +60,8 @@ color: aliceblue;
 
 .quiz-Item h3:before {
   
-  counter-increment: quiz-item;
-  content:counter(quiz-item);
+  counter-increment: quiz-Item;
+  content:counter(quiz-Item);
   background-color: #404144;
   width: 30px;
   height: 30px;
