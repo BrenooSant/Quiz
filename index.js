@@ -1,95 +1,95 @@
 const perguntas = [
     {
-      pergunta: "Qual é a maneira correta de declarar uma variável em JavaScript?",
-      respostas: [
-        "var myVar;",
-        "let myVar;",
-        "myVar = 10;",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é o método usado para imprimir algo no console em JavaScript?",
-      respostas: [
-        "console.print()",
-        "print()",
-        "console.log()",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual símbolo é usado para comentários de linha única em JavaScript?",
-      respostas: [
-        "//",
-        "/* */",
-        "<!-- -->",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é o operador de igualdade estrita em JavaScript?",
-      respostas: [
-        "==",
-        "===",
-        "!=",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual método é usado para converter uma string em um número em JavaScript?",
-      respostas: [
-        "toInt()",
-        "parseString()",
-        "parseInt()",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a maneira correta de escrever um comentário de várias linhas em JavaScript?",
-      respostas: [
-        "// Comentário de várias linhas //",
-        "/* Comentário de várias linhas */",
-        "<!-- Comentário de várias linhas -->",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é o tipo de dado usado para representar valores verdadeiros ou falsos em JavaScript?",
-      respostas: [
-        "Boolean",
-        "String",
-        "Number",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a sintaxe correta para um loop 'for' em JavaScript?",
-      respostas: [
-        "for (i = 0; i <= 5)",
-        "for (i = 0; i <= 5; i++)",
-        "for (i <= 5; i++)",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual método é usado para remover o último elemento de um array em JavaScript?",
-      respostas: [
-        "pop()",
-        "shift()",
-        "splice()",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é o método usado para adicionar um elemento ao final de um array em JavaScript?",
-      respostas: [
-        "push()",
-        "append()",
-        "concat()",
-      ],
-      correta: 0
-    }
-  ];
+       pergunta: "Em que ano o Flamengo foi fundado?",
+       respostas: [
+         "1895",
+         "1912",
+         "1906",
+       ],
+       correta: 1
+     },
+     {
+       pergunta: "Quem é considerado o maior artilheiro da história do Flamengo?",
+       respostas: [
+         "Zico",
+         "Adriano Imperador",
+         "Romário",
+       ],
+       correta: 0
+     },
+     {
+       pergunta: "Qual foi o primeiro título internacional conquistado pelo Flamengo?",
+       respostas: [
+         "Copa Libertadores",
+         "Copa Intercontinental",
+         "Copa Mercosul",
+       ],
+       correta: 1
+     },
+     {
+       pergunta: "Qual é o estádio principal do Flamengo?",
+       respostas: [
+         "Estádio do Maracanã",
+         "Estádio Luso-Brasileiro",
+         "Estádio São Januário",
+       ],
+       correta: 0
+     },
+     {
+       pergunta: "Quem é o técnico atual do Flamengo?",
+       respostas: [
+         "Jorge Jesus",
+         "Renato Gaúcho",
+         "Tite",
+       ],
+       correta: 2
+     },
+     {
+       pergunta: "Qual foi o primeiro título brasileiro conquistado pelo Flamengo?",
+       respostas: [
+         "Campeonato Brasileiro de 1980",
+         "Campeonato Brasileiro de 1979",
+         "Campeonato Brasileiro de 1982",
+       ],
+       correta: 1
+     },
+     {
+       pergunta: "Quem é o maior rival do Flamengo?",
+       respostas: [
+         "Fluminense",
+         "Vasco da Gama",
+         "Botafogo",
+       ],
+       correta: 1
+     },
+     {
+       pergunta: "Quantas vezes o Flamengo ganhou a Copa Libertadores da América?",
+       respostas: [
+         "1 vez",
+         "2 vezes",
+         "3 vezes",
+       ],
+       correta: 2
+     },
+     {
+       pergunta: "Qual jogador do Flamengo foi eleito o Rei da América em 2019?",
+       respostas: [
+         "Gabigol",
+         "Bruno Henrique",
+         "Everton Ribeiro",
+       ],
+       correta: 1
+     },
+     {
+       pergunta: "Quem é conhecido como 'O Rei do Rio'?",
+       respostas: [
+         "Pelé",
+         "Zico",
+         "Romário",
+       ],
+       correta: 1
+     }
+   ];
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
