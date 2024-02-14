@@ -108,7 +108,7 @@ input {
 
 input :checked {
 
-border: 1px solid rgb(0, 0, 0);
+border: 1px solid white;
 }
 
 input:checked:before{
