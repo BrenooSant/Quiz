@@ -6,7 +6,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 90%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,12 +14,12 @@
   }
 
   body {
-    background-color: #151b2a;
+    background-color: #151b3a;
   }
 
   main {
-    padding: 20px;
-    max-width: 640px;
+    padding: 21px;
+    max-width: 630px;
     margin: 0 auto 64px;
   }
 
